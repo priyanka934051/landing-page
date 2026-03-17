@@ -1,0 +1,191 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#030303;
+color:white;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:black;
+}
+
+.logo{
+color:#f5b041;
+}
+
+.menu{
+display:flex;
+list-style:none;
+}
+
+.menu li{
+margin:0 15px;
+}
+
+.menu a{
+text-decoration:none;
+color:white;
+font-size:16px;
+}
+
+.nav-btn button{
+margin-left:10px;
+padding:8px 15px;
+border:none;
+cursor:pointer;
+}
+
+.signin{
+background:transparent;
+color:white;
+border:1px solid white;
+}
+
+.order{
+background:#f5b041;
+color:black;
+}
+
+/* Hero Section */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:130px;
+}
+
+.hero-text h1{
+font-size:50px;
+}
+
+.hero-text span{
+color:#f5b041;
+}
+
+.hero-text p{
+margin:20px 0;
+color:#ccc;
+}
+
+.btn1{
+padding:12px 20px;
+background:#f5b041;
+border:none;
+margin-right:10px;
+}
+
+.btn2{
+padding:12px 20px;
+background:transparent;
+border:1px solid white;
+color:white;
+}
+
+.hero-img img{
+width:350px;
+border-radius:10px;
+}
+
+/* Products */
+
+.products{
+text-align:center;
+padding:120px;
+}
+
+.products h2{
+color:#f5b041;
+margin-bottom:40px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+background:#111;
+padding:20px;
+border-radius:10px;
+width:250px;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+/* Footer */
+
+.footer{
+background:#311a13;
+color:white;
+padding:60px 80px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.footer-box{
+width:30%;
+}
+
+.footer-box h3{
+margin-bottom:15px;
+color:#f5b041;
+}
+
+.footer-box p{
+margin-bottom:10px;
+color:#ddd;
+}
+
+.footer-box ul{
+list-style:none;
+}
+
+.footer-box ul li{
+margin-bottom:10px;
+cursor:pointer;
+}
+
+.social-icons span{
+margin-right:10px;
+font-size:20px;
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:40px;
+border-top:1px solid #777;
+padding-top:15px;
+color:#ddd;
+}
+
+.price{
+color:#f5b041;
+margin-top:10px;
+font-size:18px;
+font-weight:bold;
+}
